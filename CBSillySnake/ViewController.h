@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "CBSnake.h"
+#import "CBSnakeView.h"
+#import "CBFruit.h"
+
 @interface ViewController : UIViewController
+
+@property (nonatomic, retain) CBSnake *snake;
+@property (nonatomic, retain) CBSnakeView *snakeView;
+@property (nonatomic, retain) CBFruit *fruit;
 
 @end
